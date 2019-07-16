@@ -1,0 +1,501 @@
+/**
+ * Impostazioni Front Page
+ */
+.front-page #text-5 > div {
+  text-align: center; }
+
+.front-page .front-page-2 .flexible-widgets {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.front-page .sponsors ul {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .front-page .sponsors ul li {
+    flex: 0 1 120px;
+    margin: 10px 20px;
+    padding-bottom: 0; }
+  .front-page .sponsors ul img {
+    width: 100%;
+    height: auto; }
+  .front-page .sponsors ul h3 {
+    margin-bottom: 0; }
+
+.front-page .evt-date {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center; }
+
+.front-page .usp-container p {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 300px;
+  margin: 0 auto; }
+
+.front-page .usp-container .one-third {
+  text-align: center; }
+
+.front-page .usp-container img {
+  max-width: 180px; }
+
+.front-page .usp-container .button:hover {
+  background-color: #2d2d2d; }
+
+.front-page .highlight-container {
+  margin-top: 20px; }
+  .front-page .highlight-container > div {
+    background: url(../images/cerchi.png) no-repeat;
+    background-position: 20% 20%;
+    background-size: 30px; }
+  .front-page .highlight-container p {
+    line-height: 1.4;
+    padding-left: 30%;
+    text-align: left; }
+
+.front-page .sedi h4 {
+  margin-top: 25px; }
+  .front-page .sedi h4:first-child {
+    margin-top: 50px; }
+
+.front-page .sedi p {
+  color: #fff; }
+
+.front-page .sedi ul {
+  clear: left;
+  overflow: hidden;
+  text-align: center; }
+
+.front-page .sedi li {
+  float: left;
+  margin-bottom: 0;
+  color: #fff;
+  padding-bottom: 0; }
+
+.front-page .sedi li a {
+    display: inline-block;
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin: 0 10px 10px 0;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 4px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.front-page .sedi .sedi-indirette li a {
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 0 5px 5px 0;
+  padding: 4px 8px;
+}
+
+.front-page .sedi li a:hover {
+      color: #2d2d2d; }
+
+.front-page .mappa p {
+  margin-bottom: 0; }
+
+.front-page #map-canvas {
+  min-width: 300px;
+  min-height: 700px; }
+
+.front-page .org-collab {
+  max-width: 800px;
+  width: 100%;
+  display: block;
+  margin: 0 auto; }
+  .front-page .org-collab img {
+    max-width: 300px;
+    width: 100%; }
+
+.front-page .video-container {
+  max-width: 650px;
+  margin: 30px auto;
+  text-align: center; }
+  .front-page .video-container .iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0; }
+    .front-page .video-container .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+/**
+ * Impostazioni Pagina Singola
+ */
+.single .front-page-1 {
+  background-color: #163975;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: center; }
+
+/**
+ * Impostazioni Pagina Singola
+ */
+.single-sedi .site-inner {
+  margin-bottom: 30px; }
+
+.single-sedi .entry {
+  margin-bottom: 30px; }
+
+.single-sedi .entry-content h3 {
+  font-weight: 600;
+  margin-top: 0; }
+
+.single-sedi .entry-content p {
+  font-size: 1.6rem;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.single-sedi .hosts_container {
+  margin: 20px 0; }
+
+.single-sedi .host {
+  margin-bottom: 30px; }
+
+  .single-sedi .host-info p {
+    margin-bottom: 10px;
+}
+
+.single-sedi .content .button {
+  margin-bottom: 30px; }
+  .single-sedi .content .button:first-child {
+    margin-right: 30px; }
+  .single-sedi .content .button.inverted {
+    background-color: #2d2d2d;
+    color: #fff; }
+
+.single-sedi .sede-map {
+  margin-bottom: 30px;
+  min-width: 350px;
+  min-height: 400px;
+  width: 100%;
+  height: 400px; }
+
+.single-sedi .sponsor {
+  margin-bottom: 30px;
+  text-align: center; }
+  .single-sedi .sponsor h3 {
+    font-weight: 600; }
+
+.single-sedi .community,
+.single-sedi .hosts_container {
+    text-align: center;
+}
+
+.single-sedi .community h3,
+.single-sedi .hosts_container h3 {
+  font-weight: 700;
+}
+
+.single-sedi .community .community-container,
+.single-sedi .hosts_container .host-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.community-item {
+  flex: 0 1 125px;
+  margin: 10px 20px;
+  padding-bottom: 0;
+}
+
+.host-wrapper .host {
+  flex: 0 1 150px;
+  margin: 0 14px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.host-wrapper .host .host-info {
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #EB7878;
+    width: 100%;
+    padding: 3px 0 4px;
+    display: none;
+    color: #FFF;
+}
+
+.host:hover > .host-info {
+    display: block;
+}
+
+/**
+ * Impostazioni Navigazione
+ */
+.front-page-1.image-section a {
+  border-bottom: none; }
+
+.front-page-1.image-section .genesis-nav-menu {
+  margin: 10px 0 20px; }
+  .front-page-1.image-section .genesis-nav-menu a {
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 400; }
+    .front-page-1.image-section .genesis-nav-menu a:hover {
+      color: #2d2d2d;
+      text-decoration: underline; }
+
+.front-page-1.image-section .widget li {
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.front-page-1.image-section .td-header {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  clear: both;
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  margin-bottom: 30px; }
+  .front-page-1.image-section .td-header a {
+    color: #fff; }
+    .front-page-1.image-section .td-header a:hover {
+      color: #2d2d2d; }
+  .front-page-1.image-section .td-header .ext {
+    clear: both;
+    overflow: hidden; }
+    .front-page-1.image-section .td-header .ext br {
+      display: none;
+      height: 0;
+      visibility: hidden; }
+    .front-page-1.image-section .td-header .ext > li, .front-page-1.image-section .td-header .ext > a, .front-page-1.image-section .td-header .ext > span {
+      float: left;
+      padding: 10px 15px; }
+    .front-page-1.image-section .td-header .ext > span.u-color-white {
+      padding-left: 0;
+      padding-right: 0; }
+  .front-page-1.image-section .td-header .delimiter {
+    border-right: 1px solid #fff; }
+  .front-page-1.image-section .td-header .four-sixths .ext {
+    float: right; }
+
+#menu-item-156.current-menu-item a, .menu-item-156.current-menu-item a {
+  color: #fff; }
+
+/**
+ * Impostazioni Pagina 404
+ */
+.error404 .front-page-1 {
+  background-position-y: top; }
+
+.error404 .flexible-widgets {
+  padding-bottom: 0 !important; }
+
+.error404 .entry {
+  text-align: center;
+  margin-bottom: 0; }
+  .error404 .entry h1 {
+    margin-bottom: 30px; }
+
+.error404 .entry-content .bubbles {
+  max-width: 300px;
+  width: 100%;
+  margin-right: -50px;
+  margin-left: 80px; }
+
+/**
+ * Sezione Hero
+ */
+body:not(.front-page) .flexible-widgets {
+  padding-bottom: 175px; }
+
+body:not(.front-page) .widget {
+  margin-bottom: 0 !important; }
+
+body:not(.front-page) .site-inner {
+  margin-top: 60px; }
+
+.front-page-1, .front-page-1 p, .front-page-1 .widget-title {
+  color: #fff;
+  font-weight: 200;
+  margin-bottom: 0; }
+
+.hero-logo {
+  max-width: 400px;
+  width: 100%; }
+
+p.hero-date {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 25px;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: -30px;
+  max-width: 380px;
+  letter-spacing: .5px;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: right; }
+
+p.hero-hashtag {
+  text-align: right; }
+
+.partner {
+  text-align: left; }
+  .partner span {
+    text-align: left;
+    font-size: 14px; }
+  .partner img {
+    max-width: 200px;
+    height: auto;
+    width: 100%; }
+  .partner li {
+    text-align: right; }
+
+    .partners .partner-citta {
+      background: #333;
+      color: #FFF;
+      padding: 10px;
+      text-align: center;
+    }
+
+/**
+ * Random styles
+ */
+.site-footer .first {
+  text-align: left;
+  color: #fff; }
+
+.site-footer .genesis-nav-menu .current-menu-item > a {
+  color: #eb7878; }
+
+.site-footer .genesis-nav-menu .menu-item-156.current-menu-item a {
+  color: #fff; }
+
+.site-footer .hero-logo {
+  max-width: 270px; }
+
+  .no-margin {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+/**
+ * Footer Sponsor Tech Section
+ */
+.sponsor-tech {
+  margin-bottom: 30px; }
+
+.sponsor-tech section:first-child {
+  margin-top: 40px; }
+
+.sponsor-tech .stech, .sponsor .stech {
+  border-left: 1px solid #2d2d2d; }
+
+.sponsor-tech ul, .sponsor ul {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .sponsor-tech ul li, .sponsor ul li {
+    flex: 0 1 100px;
+    margin: 10px 20px;
+    padding-bottom: 0; }
+    .single-sedi .sponsor.sede ul li {
+      flex: 0 1 125px;
+    }
+    .single-sedi .sponsor.tecnici ul li {
+      flex: 0 1 100px;
+    }
+  .sponsor-tech ul img, .sponsor ul img {
+    width: 100%;
+    height: auto; }
+  .sponsor-tech ul h3, .sponsor ul h3 {
+    margin-bottom: 0; }
+
+/* Sezione News Importate */
+
+ul.ipr-comunicates {
+  font-family: 'Titillium Web', sans-serif;
+  max-width: 100%;
+  margin: 0 0 3% !important;
+}
+
+ul.ipr-comunicates li {
+    list-style: none;
+    list-style-type: none;
+}
+
+ul.ipr-comunicates li {
+  list-style: none;
+  list-style-type: none;
+  border: 1px solid #ededed;
+  box-shadow: 2px 2px 10px #ededed;
+}
+
+ul.ipr-comunicates li .overlay {
+    background: rgba(235, 101, 104,.85);
+}
+
+.comunicate_date {
+    background: #FFF;
+    display: block;
+    max-width: 100px;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.ipr-title {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 22px;
+}
+
+.ipr-title a {
+  color: #fff;
+}
+
+.ipr-abstract {
+    padding: 10px 30px 0;
+    display: block;
+}
+
+.ipr-author {
+    font-size: 14px;
+    padding: 10px 30px;
+    display: block;
+}
+
+.page-id-391 article.entry {
+  margin-bottom: 0;
+}
+
+.single-sedi.postid-48 .sponsor.sede ul li {
+    flex: 0 1 250px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 720px) {
+  .front-page .sponsors ul,
+  .front-page .sponsor-tech ul {
+    display: block;
+    text-align: center;
+  }
+  .front-page .sponsors ul li,
+  .front-page .sponsor-tech ul li {
+    display: inline-block;
+    width: 100px;
+  }
+}

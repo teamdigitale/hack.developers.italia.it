@@ -13,10 +13,10 @@
 
 	<script type="text/javascript">
 		(function (i, s, o, g, r, a, m) {
-		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-			(i[r].q = i[r].q || []).push(arguments)
-		}, i[r].l = 1 * new Date(); a = s.createElement(o),
-			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
 		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
 		ga('create', 'UA-103404178-1', 'auto');
@@ -99,13 +99,6 @@
 <script type='text/javascript' src='../wp-content/themes/genesis/lib/js/html5shiv.js'></script>
 <![endif]-->
 	<link rel='https://api.w.org/' href='../wp-json/' />
-	<meta name="generator" content="WordPress 4.8.9" />
-	<link rel='shortlink' href='/?p=81' />
-	<link rel="alternate" type="application/json+oembed"
-		href="../wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhack.developers.italia.it%2Fcontatti%2F" />
-	<link rel="alternate" type="text/xml+oembed"
-		href="../wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhack.developers.italia.it%2Fcontatti%2F&#038;format=xml" />
-	<link rel="pingback" href="../xmlrpc.php" />
 	<style type="text/css">
 		.site-title a {
 			background: url(../wp-content/uploads/2017/07/cropped-logo-header.png) no-repeat !important;
@@ -543,9 +536,6 @@
 	</div>
 </script>
 
-	<script id="tmpl-nf-empty" type="text/template">
-
-</script>
 	<script id="tmpl-nf-before-form" type="text/template">
 	{{{ data.beforeForm }}}
 </script>
@@ -683,9 +673,7 @@
 	<script id="tmpl-nf-field-input-limit" type="text/template">
     {{{ data.currentCount() }}} of {{{ data.input_limit }}} {{{ data.input_limit_msg }}}
 </script>
-	<script id="nf-tmpl-field-null" type="text/template">
-</script>
-	<script id="tmpl-nf-field-firstname" type="text/template">
+<script id="tmpl-nf-field-firstname" type="text/template">
     <input id="nf-field-{{{ data.id }}}" name="nf-field-{{{ data.id }}}" aria-invalid="false" aria-describedby="nf-error-{{{ data.id }}}" class="{{{ data.renderClasses() }}} nf-element" type="text" value="{{{ data.value }}}" {{{ data.renderPlaceholder() }}}>
 </script>
 	<script id='tmpl-nf-field-input' type='text/template'>
